@@ -35,8 +35,8 @@ sudo apt update && sudo apt install -y nmap whatweb gobuster whois curl lynx wor
 
 Clone the repository:
 ```bash
-git clone https://github.com/Void0xNull/RecoonToolkit_V1.git
-cd RecoonToolkit_V1
+git clone https://github.com/Void0xNull/RecoonToolkit.git
+cd RecoonToolkit
 ```
 
 ## Usage
