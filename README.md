@@ -92,6 +92,7 @@ RecoonToolkit/
 ├── templates/
 │   ├── report_style.css
 │   ├── report_template.html
+│   ├── RecoonToolkit.png
 ├── modules/
 │   ├── results/
 │   │   ├── connectivity_<target>.txt
