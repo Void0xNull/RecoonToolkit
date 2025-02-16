@@ -1,0 +1,79 @@
+/* General dark mode */
+h1, h2, pre, p {
+    color: #c8d3dc !important; /* Custom color */
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    background-color: #121212 !important; /* Full dark background */
+    color: #c8d3dc;
+    margin: 0;
+    padding: 20px;
+    height: 120%; /* Ensure background covers entire page */
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #4A90E2;
+}
+
+/* Section titles */
+h2 {
+    color: #8738e7;
+    border-bottom: 2px solid #8738e7;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Code blocks with highlighting */
+pre {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: "Courier New", monospace;
+    border: 1px solid #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #121212;
+    color: #c8d3dc;
+    border-radius: 5px;
+}
+
+/* Unicode symbols in section titles */
+.section-title::before {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.connectivity::before {
+    content: "\1F4E1"; /* Antenna */
+    color: #FFC107;
+}
+
+.ports::before {
+    content: "\21C4"; /* Ethernet */
+    color: #c8d3dc;
+}
+
+.subdomains::before {
+    content: "\1F310"; /* Globe */
+    color: #007BFF;
+}
+
+.whois::before {
+    content: "\1F4C4"; /* Document */
+    color: #28A745;
+}
+
+.techscan::before {
+    content: "\2699"; /* Gear */
+    color: #17A2B8;
+}
