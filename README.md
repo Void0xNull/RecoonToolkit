@@ -1,7 +1,7 @@
 # RecoonToolkit
-
-<img src="templates/RecoonToolkit.png" alt="RecoonToolkit Logo" width="300" height="300">
-
+<p align="center">
+<img src="templates/RecoonToolkit.png" alt="RecoonToolkit Logo" width="200" height="200">
+</p>
 
 RecoonToolkit is a **Red Team reconnaissance toolkit** designed for automated and structured information gathering. It integrates multiple reconnaissance techniques into a single workflow, providing filtered and well-organized results.
 
